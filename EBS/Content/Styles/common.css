@@ -1,0 +1,70 @@
+﻿
+.gc {
+    width: 450px;
+    float: left;
+}
+
+.gr {
+    height: 45px;
+}
+
+.gr2 {
+    height: 90px;
+}
+
+.gl {
+    width: 150px;
+    float: left;
+    margin-top: 5px;
+}
+
+.profile_small {
+    margin-top: -5px;
+    position: relative;
+    top: 1px;
+    border: 1px solid rgb(80, 80, 80);
+}
+
+.updateProgress {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    top: 8px;
+    float: left;
+    height: 0px;
+}
+
+.bodyPane {
+    margin-top: 41px;
+}
+
+.menuPane {
+    border: 1px solid rgb(228, 228, 228);
+    height: 25px;
+}
+
+.leftPane {
+    border: 1px solid rgb(228, 228, 228);
+    width: 250px;
+    height: 40px;
+    float: left;
+    border-top: none;
+    border-bottom: none;
+}
+
+.rightPane {
+    /*border: 1px solid rgb(228, 228, 228);*/
+    float: left;
+    padding: 10px;
+}
+
+.gridPane {
+    float: left;
+}
+
+.actionPane {
+    float: left;
+    clear: both;
+    margin-top: 25px;
+}

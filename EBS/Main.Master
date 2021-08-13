@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="EBS.Main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>.NET Playground!</title>
+
+    <link href='<%: ResolveClientUrl("~/Scripts/bootstrap/css/bootstrap.min.css") %>' rel="stylesheet" />
+    <link href='<%: ResolveClientUrl("~/Content/Styles/bootstrap-fix.css") %>' rel="stylesheet" />
+    <link href='<%: ResolveClientUrl("~/Content/Styles/common.css") %>' rel="stylesheet" />
+
+    <% if (false)
+       { %>
+    <link href="/Scripts/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Content/Styles/bootstrap-fix.css" rel="stylesheet" />
+    <link href="/Content/Styles/common.css" rel="stylesheet" />
+    <% } %>
+
+    <asp:ContentPlaceHolder ID="headPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="scriptManager" runat="server"></asp:ScriptManager>
+        <div class="navbar navbar-fixed-top navbar-inverse">
+            <div class="updateProgress">
+                <asp:UpdateProgress ID="updateProgress" runat="server" DisplayAfter="100">
+                    <ProgressTemplate>
+                        <img src='<%: ResolveClientUrl("~/Content/Images/spinner.gif") %>' alt="Spinner Image"/>
+                    </ProgressTemplate>
+                </asp:UpdateProgress>
+            </div>
+
+            <div class="navbar-inner">
+                <a class="brand" href='<%: ResolveClientUrl("~/Default.aspx") %>'>EBS Inc.</a>
+                <ul class="nav pull-right">
+                    <li class="dropdown">
+                        <a id="dLabel" class="dropdown-toggle" data-toggle="dropdown" href="#">Khabir Uddin&nbsp;&nbsp;<img class="profile_small" src='<%: ResolveClientUrl("~/Content/Images/khabir.jpg") %>' /></a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                            <li><a href="#">View Profile</a></li>
+                            <li><a href="#">Change Password</a></li>
+                            <li><a href="#">Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="bodyPane">
+            <div class="menuPane">
+            </div>
+            <div class="leftPane">
+            </div>
+            <div class="rightPane">
+                <asp:UpdatePanel ID="bodyUpdatePanel" runat="server">
+                    <ContentTemplate>
+                        <asp:ContentPlaceHolder ID="bodyPlaceHolder" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </ContentTemplate>
+                </asp:UpdatePanel>
+            </div>
+        </div>
+        <div class="modal hide">
+            <div class="modal-header">
+                <h3>Modify User</h3>
+            </div>
+            <div class="modal-body">
+                Are you sure to save changes?
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn" data-dismiss="modal">Close</a>
+            </div>
+        </div>
+
+        <script src='<%: ResolveClientUrl("~/Scripts/jquery-2.0.0.min.js") %>'></script>
+        <script src='<%: ResolveClientUrl("~/Scripts/bootstrap/js/bootstrap.min.js") %>'></script>
+        <script src='<%: ResolveClientUrl("~/Scripts/jsHelper.js") %>'></script>
+
+        <% if (false)
+           { %>
+        <script src="Scripts/jquery-2.0.0.min.js"></script>
+        <script src="Scripts/bootstrap/js/bootstrap.min.js"></script>
+        <script src="Scripts/jsHelper.js"></script>
+        <% } %>
+
+        <asp:ContentPlaceHolder ID="scriptPlaceHolder" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

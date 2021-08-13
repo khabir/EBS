@@ -1,0 +1,28 @@
+﻿
+h3 {
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.navbar-inner {
+    padding: 0 10px 0 20px !important;
+    height: 40px;
+}
+
+.navbar-inverse .nav > li > a {
+    height: 21px;
+}
+
+.form-actions {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+/*ul.nav li.dropdown:hover ul.dropdown-menu {
+    display: block;
+}
+
+.navbar .dropdown-menu {
+    margin-top: 0px;
+}*/

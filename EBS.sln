@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EBS", "EBS\EBS.csproj", "{472C250D-BEF7-4F31-A731-3FCA0EB922F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EBS.Entities", "EBS.Entities\EBS.Entities.csproj", "{824FD8AB-C275-4090-9769-70A8B9154C11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EBS.Data", "EBS.Data\EBS.Data.csproj", "{6E762BB3-80BE-4A87-835C-CFBD9529732A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EBS.Business", "EBS.Business\EBS.Business.csproj", "{E8F20B0A-7E96-4F0C-BDC0-AA09DB4026BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EBS.Shared", "EBS.Shared\EBS.Shared.csproj", "{2C32096B-E1B9-429A-91AF-15E9D7B20285}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EBS.Helpers", "EBS.Helpers\EBS.Helpers.csproj", "{53BF3B33-7390-4092-AD50-7D796EAB4781}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EBS.Tests", "EBS.Tests\EBS.Tests.csproj", "{8E896545-044D-44AD-AF34-1C369EDA96AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EBS.Service", "EBS.Service\EBS.Service.csproj", "{AE14CBB9-AAEF-4423-A706-423F416C2BAE}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://shahed.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = EBS.Business\\EBS.Business.csproj
+		SccProjectName1 = EBS.Business
+		SccLocalPath1 = EBS.Business
+		SccProjectUniqueName2 = EBS.Data\\EBS.Data.csproj
+		SccProjectName2 = EBS.Data
+		SccLocalPath2 = EBS.Data
+		SccProjectUniqueName3 = EBS.Entities\\EBS.Entities.csproj
+		SccProjectName3 = EBS.Entities
+		SccLocalPath3 = EBS.Entities
+		SccProjectUniqueName4 = EBS.Shared\\EBS.Shared.csproj
+		SccProjectName4 = EBS.Shared
+		SccLocalPath4 = EBS.Shared
+		SccProjectUniqueName5 = EBS\\EBS.csproj
+		SccProjectName5 = EBS
+		SccLocalPath5 = EBS
+		SccProjectUniqueName6 = EBS.Helpers\\EBS.Helpers.csproj
+		SccProjectName6 = EBS.Helpers
+		SccLocalPath6 = EBS.Helpers
+		SccProjectUniqueName7 = EBS.Tests\\EBS.Tests.csproj
+		SccProjectName7 = EBS.Tests
+		SccLocalPath7 = EBS.Tests
+		SccProjectUniqueName8 = EBS.Service\\EBS.Service.csproj
+		SccProjectName8 = EBS.Service
+		SccLocalPath8 = EBS.Service
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{472C250D-BEF7-4F31-A731-3FCA0EB922F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{472C250D-BEF7-4F31-A731-3FCA0EB922F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{472C250D-BEF7-4F31-A731-3FCA0EB922F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{472C250D-BEF7-4F31-A731-3FCA0EB922F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{824FD8AB-C275-4090-9769-70A8B9154C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{824FD8AB-C275-4090-9769-70A8B9154C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{824FD8AB-C275-4090-9769-70A8B9154C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{824FD8AB-C275-4090-9769-70A8B9154C11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E762BB3-80BE-4A87-835C-CFBD9529732A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E762BB3-80BE-4A87-835C-CFBD9529732A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E762BB3-80BE-4A87-835C-CFBD9529732A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E762BB3-80BE-4A87-835C-CFBD9529732A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8F20B0A-7E96-4F0C-BDC0-AA09DB4026BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8F20B0A-7E96-4F0C-BDC0-AA09DB4026BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8F20B0A-7E96-4F0C-BDC0-AA09DB4026BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8F20B0A-7E96-4F0C-BDC0-AA09DB4026BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C32096B-E1B9-429A-91AF-15E9D7B20285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C32096B-E1B9-429A-91AF-15E9D7B20285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C32096B-E1B9-429A-91AF-15E9D7B20285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C32096B-E1B9-429A-91AF-15E9D7B20285}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53BF3B33-7390-4092-AD50-7D796EAB4781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53BF3B33-7390-4092-AD50-7D796EAB4781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53BF3B33-7390-4092-AD50-7D796EAB4781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53BF3B33-7390-4092-AD50-7D796EAB4781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E896545-044D-44AD-AF34-1C369EDA96AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E896545-044D-44AD-AF34-1C369EDA96AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E896545-044D-44AD-AF34-1C369EDA96AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E896545-044D-44AD-AF34-1C369EDA96AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE14CBB9-AAEF-4423-A706-423F416C2BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE14CBB9-AAEF-4423-A706-423F416C2BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE14CBB9-AAEF-4423-A706-423F416C2BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE14CBB9-AAEF-4423-A706-423F416C2BAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
